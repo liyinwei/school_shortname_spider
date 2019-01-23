@@ -13,7 +13,7 @@ from school_shortname_spider.items import SchoolShortnameSpiderItem
 
 class AreaSpider(Spider):
     def __init__(self):
-        self.reg = re.compile(u'[^\u4E00-\u9FA5A-Za-z、]')
+        self.reg = re.compile(u'[^\u4E00-\u9FA5、]')
 
     name = "school_shortname_spider"
 
